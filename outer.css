@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@400;500;600&display=swap");
+
+:root {
+  --ming: #006d77ff;
+  --alice-blue: #edf6f9ff;
+  --jet: #2f2d2eff;
+  --dark-salmon: #e29578ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gluten", cursive;
+}
+
+body {
+  background-color: var(--alice-blue);
+}
+
+header {
+  max-height: 10vh;
+  padding: 1.5em;
+  font-weight: 600;
+  color: var(--jet);
+}
+
+header h2 {
+  padding: 15px 0px 0px 16px;
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--jet);
+}
+
+footer .name {
+  padding-top: 20px;
+  text-align: center;
+  align-self: center;
+  color: var(--dark-salmon);
+}
+
+footer .links {
+  position: relative;
+  top: -13px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  list-style-type: none;
+  padding-right: 50px;
+}
+
+footer .links li {
+  padding-left: 10px;
+}
+
+footer a {
+  color: var(--dark-salmon);
+  text-decoration: none;
+}

@@ -1,0 +1,75 @@
+@media screen and (max-width: 600px) {
+  header h2 {
+    text-align: center;
+  }
+  .game {
+    flex-direction: column;
+  }
+
+  img {
+    max-height: 100%;
+  }
+
+  .container {
+    width: 100vw;
+    margin: auto;
+  }
+
+  .player,
+  .computer {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .player {
+    order: 3;
+  }
+
+  .score {
+    text-align: center;
+    padding-left: 10px;
+    order: 2;
+  }
+
+  .pl-img {
+    padding-right: 30px;
+    order: 1;
+  }
+
+  .pl-btns {
+    order: 2;
+  }
+
+  .cp-img {
+    padding-right: 10px;
+    order: 2;
+  }
+
+  .desp {
+    text-align: center;
+    min-height: 37%;
+  }
+
+  .desp h2 {
+    padding-top: 15px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer .links {
+    position: static;
+    margin: 0;
+    padding: 0;
+  }
+}
